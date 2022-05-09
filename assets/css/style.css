@@ -55,3 +55,9 @@ body{
     text-transform: uppercase;
     
 }
+
+/* Our history area */
+
+.about-image{
+    height: 500px;
+}
