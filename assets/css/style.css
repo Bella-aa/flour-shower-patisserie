@@ -7,6 +7,32 @@
 }
 
 body{
-    background-color: blue
-    font-family: Calistoga
+    font-family: Calistoga;
+    font-size: 400;
+    color:black
 }
+
+/* style navigation links */
+
+.nav-area{
+    font-size: 100%;
+    letter-spacing: 5%;
+    background-color: rgb(95, 168, 211);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-area li{
+    display: inline;
+    list-style-type: none;
+    margin-top: -10px;
+    margin: 40px;
+    float: right;
+}
+
+.nav-area a{
+    text-decoration: none;
+    color:black
+}
+
+.nav-area a:hover{color: rgb(27, 73, 101)}
