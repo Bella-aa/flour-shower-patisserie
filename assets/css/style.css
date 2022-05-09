@@ -59,5 +59,10 @@ body{
 /* Our history area */
 
 .about-image{
-    height: 500px;
+    height: 600px;
+    margin-left: 2%;
+}
+
+.about-us{
+    display: inline;
 }
