@@ -1,1 +1,12 @@
-body{background-color: blue;}
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Montserrat&display=swap');
+
+*{
+    margin: o;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background-color: blue
+    font-family: Calistoga
+}
