@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Montserrat&display=swap');
 
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     border: none;
 }
 
 body{
     font-family: Calistoga;
-    font-size: 400;
+    font-size: 100%;
     color:black
 }
 
@@ -17,7 +17,7 @@ body{
 .nav-area{
     font-size: 100%;
     letter-spacing: 5%;
-    background-color: rgb(95, 168, 211);
+    background-color: red;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -25,14 +25,33 @@ body{
 .nav-area li{
     display: inline;
     list-style-type: none;
-    margin-top: -10px;
+    margin-top: -10%;
     margin: 40px;
-    float: right;
+    float: top-right;
+
 }
 
 .nav-area a{
     text-decoration: none;
-    color:black
+    color:rgb(17, 5, 5)
 }
 
-.nav-area a:hover{color: rgb(27, 73, 101)}
+.nav-area a:hover{color: rgb(211, 67, 88)}
+
+/* main image and website name */
+
+.main-image{
+    background: url("../images/main-image-5850470.jpg") no-repeat center center;
+    height: 80vh;
+    width: 100%;
+    background-size: 100%;
+}
+
+.main-text{
+    padding-top: 500px;
+    color: white;
+    padding-left: 150px;
+    font-size: 250%;
+    text-transform: uppercase;
+    
+}
