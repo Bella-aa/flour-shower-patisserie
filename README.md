@@ -35,3 +35,52 @@ As a user, it is important :
 4. Clear Instructions are presented on the recipe page together with a video for assistance.
 5. The user can signup on the website to get a newsletter or notifications which will give them access to past and present recipies on how to bake.
 -----
+
+# UX
+
+### Strategy
+
+The website is desined to get anyone of any age who wants to learn baking using simple and easy to follow instructions. New recipies are posted each week. It is aimed that the user finds the website easy to use and that it provides recipies easy to follow and also that they like the website. It is also aimed that the user will continuously viit the website for new recipies.
+
+### Scope
+
+The features are designed to be simple, welcoming and straight forward. The main existing features here are
+
+1. Logo
+
+- The logo for FLOUR SHOWER PATISSERIE is located ontop of the home page on the far left of the navigation bar
+
+2. Navigation
+
+- The navigation bar is located on the home page beside the logo on the far right. It contains links to all of the sections on the website and they are fully responsive.
+
+3. Footer
+
+- The footer is located on the bottom of the page and there are 4 icons which directly links the user to the baking video on  Twitter, Facebook and Instagram when clicked.
+
+4. Buttons
+
+- There is a button on the sign up section for ease of use.
+
+### Structure Plane 
+
+There is one page on this website divided into four sections :
+
+1. Home  Section
+
+- This is the first section of the page that the user sees when they open the website. It is designed to give the user a clear direction on what the website is about. An overlay text containing the website name FLOUR SHOWER PATISSERIE is embedded over the maine-Image. To provide an attractive visual impression of the website, a picture showing baked products was chosen as the main-image. There is an about section beneath the maine image a brief description, background and the services offered at FLOUR SHOWER PATISSERIE.
+
+2. Recipe Section
+
+- This is the section that contains the recipe method of the finished product. It tells the user the name of the recipe, the ingrediants and tools needed and the method to follow to complete the recipe. The recipe section is structured to give the user an easy to follow recipe method which is easy to follow. The target audiance is begginer level who wants to turn baking into a hobby. There is also a video for assistance.
+
+3. Sign Up section
+
+- The sign up section enables the user to register to the website so that they will be able to recieve news letters and notifications which will allow them to see past and newly added recipies. It is a simple and straight forward form asking for the users name and email address. **On this Portfolio project, the sign up section "action" used is POST** .
+
+4. Thank you section
+
+- The user will be redirected to this page section once they submit the form on the Sign Up page. They will be redirected to this page thanking them for joinning to use the services. It also helps the user to know if they have been registered succesfuly.
+
+5. Footer section
+- This is a section located at the bottom of the page providing links to our social media platforms.
