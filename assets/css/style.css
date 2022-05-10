@@ -71,7 +71,7 @@ body{
     font-family: Calistoga, sans-serif;
     font-size: 250%;
     text-decoration: underline;
-
+    
 }
 
 .about-text{
@@ -94,11 +94,12 @@ body{
 
 .recipe-section{
     display: inline;
-    margin-left: 10px;
+    margin-left: 2px;
     margin-top: 20px;
     padding :10px;
     width: 50%;
 }
+
 
 
 
