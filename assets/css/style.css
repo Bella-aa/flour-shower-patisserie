@@ -60,16 +60,23 @@ body{
 
 .about-us{
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 2px;
     width: 50%;
     padding: 10px;
 
 }
 
+.about-heading{
+    font-family: Calistoga, sans-serif;
+    font-size: 250%;
+    text-decoration: underline;
+
+}
+
 .about-image{
     height: 600px;
-    margin-left: 2%;
+    
     
 }
 
