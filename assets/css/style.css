@@ -77,16 +77,17 @@ body{
 .about-text{
     font-family: Montserrat, Arial;
     font-size: 100%;
+    text-align: justify;
     padding: 5px;
     margin-top: 2px;
     float: left;
 }
 
-
 .about-image{
     height: 600px;
-    
-    
+    float: right;  
+    width: 500px;
+    padding: 0 10px 0 0;
 }
 
 
