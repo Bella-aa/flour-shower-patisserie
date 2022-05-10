@@ -58,11 +58,23 @@ body{
 
 /* Our history area */
 
+.about-us{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 2px;
+    width: 50%;
+    padding: 10px;
+
+}
+
 .about-image{
     height: 600px;
     margin-left: 2%;
+    
 }
 
-.about-us{
-    display: inline;
-}
+
+
+
+
+
