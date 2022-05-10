@@ -58,20 +58,32 @@ body{
 
 /* Our history area */
 
-.about-us{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 2px;
-    width: 50%;
-    padding: 10px;
-
+#h1{
+    width: 100%;
 }
 
 .about-heading{
     font-family: Calistoga, sans-serif;
     font-size: 250%;
     text-decoration: underline;
+    width: 100%;
     
+}
+
+.about-us{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 2px;
+    padding: 10px;
+
+}
+
+/* display:flex*/
+
+.about-flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 .about-text{
@@ -81,13 +93,14 @@ body{
     padding: 5px;
     margin-top: 2px;
     float: left;
+    width: 50%;
 }
 
 .about-image{
-    height: 600px;
-    float: right;  
+    height: 500px;
     width: 500px;
-    padding: 0 10px 0 0;
+    padding-left: 100px;
+    float: right;
 }
 
 /*Recipe and method area*/
