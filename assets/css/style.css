@@ -94,6 +94,7 @@ body{
     margin-top: 2px;
     float: left;
     width: 50%;
+    line-height: 50px;
 }
 
 .about-image{
@@ -105,14 +106,9 @@ body{
 
 /*Recipe and method area*/
 
-.recipe-section{
-    display: inline;
-    margin-left: 2px;
-    margin-top: 20px;
-    padding :10px;
-    width: 50%;
-}
+.recipe{
 
+}
 
 
 
