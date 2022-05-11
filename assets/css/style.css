@@ -125,6 +125,11 @@ body{
     line-height: 30px;
 }
 
+.heading-3{
+    font-size: 150%;
+    font-family: Calistoga, sans-serif;
+    text-decoration: underline;
+}
 
 
 
