@@ -131,6 +131,19 @@ body{
     text-decoration: underline;
 }
 
+/* video area */
+
+.iframe-container{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.heading-4{
+    font-size: 150%;
+    font-family: Calistoga, sans-serif;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
 
 
 
