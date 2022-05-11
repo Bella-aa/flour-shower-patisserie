@@ -109,13 +109,20 @@ body{
 .recipe-section{
      margin-left: 26px;
      padding-top: 2%;
+     text-align: start;
 }
 
 .heading-1{
     font-size: 250%;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
+}
 
+.text{
+    font-family: Montserrat, Arial;
+    font-size: 100%;
+    margin: 10px;
+    line-height: 30px;
 }
 
 
