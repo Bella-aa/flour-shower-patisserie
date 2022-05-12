@@ -196,6 +196,12 @@ body{
     margin: 2%;
 }
 
+.thanks-heading{
+    font-family: Calistoga, sans-serif;
+    font-size: 250%;
+    padding-bottom: 2%;
+}
+
 .link{
     margin: 2%;
 }
