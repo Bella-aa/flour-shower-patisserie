@@ -149,11 +149,20 @@ body{
 
 .signup-heading{
     margin: 2%;
+    
+}
+
+.h2{
+    font-size: 200%;
+    font-family: Calistoga, sans-serif;
+    text-decoration: underline;
 }
 
 .signup-text{
     padding: 1px;
     margin-top: 1%;
+    font-size: 100%;
+    font-family: Montserrat, Arial;
 }
 
 .form-area{
