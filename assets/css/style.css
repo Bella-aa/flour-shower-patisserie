@@ -214,6 +214,32 @@ body{
     
 }
 
+/* footer*/
+
+footer{
+    height: 200px;
+    background-color: beige;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links > li{
+    display: inline;
+}
+
+.social-links i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 4%;
+    color: greenR;
+}
+
+
+
+
+
 
 
 
