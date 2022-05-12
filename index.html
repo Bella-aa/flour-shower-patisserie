@@ -25,7 +25,7 @@
                 </li>
 
                 <li>
-                    <a href="index.html">Sign Up</a>
+                    <a href="#form">Sign Up</a>
                 </li>
                 
             </ul>
@@ -130,27 +130,43 @@
     </section>
 
     <!--This section conatains sign Up form-->
-    <section>
+    <section id="form">
+
+        <div class="signup-heading">
+          <h2>Sign Up to our Website!</h2>
+          <p class="signup-text">Sign Up to our website to recieve weekly baking recipes and tips. Simply fill your details in the boxes on the form below and click on the submit button.</p>
+       </div>
+
         <div class="form-area">
 
-            <h2>Sign Up to our Website</h2>
-
-            <form class="sign-up" method="POST" action="#">
-
+            <form class="sign-up" method="GET" action="./thank-you.html">
+                
+                <center>
                 <div>
-                    <label for="email">Email Address</label>
-                    <input type="email" placeholder="Your email address" class="enter-text">
+                    <label for="fname">First Name:</label>
+                    <input type="text" placeholder="Enter your First-name" class="form-input" required>
                 </div>
 
-               <div>
-                   <label for="password">Password</label>
-                   <input type="password" placeholder="Enter your password" class="enter-text"
-               </div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" placeholder="Enter your Last-name" class="form-input" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" placeholder="Enter your email address" class="form-input" required>
+                </div>
+
+                <div>
+                    <button type="submit" value="sign up" class="enter">Submit</button>
+                </div>
+            </center>
 
             </form>
         </div>
     </section>
 <!---sign Up form ends here-->
+
     <footer>
         social media links here
     </footer>
