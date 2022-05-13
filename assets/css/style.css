@@ -18,8 +18,9 @@ body{
     font-size: 100%;
     letter-spacing: 5%;
     background-color: red;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-area li{
@@ -34,6 +35,7 @@ body{
 .nav-area a{
     text-decoration: none;
     color:rgb(17, 5, 5)
+    
 }
 
 .nav-area a:hover{color: rgb(211, 67, 88)}
