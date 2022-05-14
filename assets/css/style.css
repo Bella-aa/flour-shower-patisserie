@@ -17,7 +17,7 @@ body{
 .nav-area{
     font-size: 100%;
     letter-spacing: 5%;
-    background-color: red;
+    background-color: #F7F7FF;
     padding: 1%;
     position: fixed;
     width: 100%;
@@ -40,11 +40,10 @@ body{
     padding: 10% 5%;
     text-transform: uppercase;
     font-family: Calistoga, sans-serif;
-    color:rgb(17, 5, 5)
-    
+    color: #495867;
 }
 
-.nav-area a:hover{color: rgb(211, 67, 88)}
+.nav-area a:hover{color: #FE5F55}
 
 /* main image and website name */
 
@@ -52,16 +51,17 @@ body{
     background: url("../images/main-image-5850470.jpg") no-repeat center center;
     height: 80vh;
     width: 100%;
+    padding-top: 15%;
     background-size: 100%;
 }
 
 .main-text{
-    padding-top: 500px;
-    color: white;
-    padding-left: 150px;
+    padding: 10% 10%;
+    color: #F7F7FF;
     font-size: 250%;
+    font-family: Calistoga, sans-serif;
     text-transform: uppercase;
-    
+    width: 20%;
 }
 
 /* Our history area */
