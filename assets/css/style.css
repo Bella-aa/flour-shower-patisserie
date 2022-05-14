@@ -9,7 +9,7 @@
 body{
     font-family: Calistoga;
     font-size: 100%;
-    color:black
+    color: #495867;
 }
 
 /* style navigation links */
@@ -17,7 +17,7 @@ body{
 .nav-area{
     font-size: 100%;
     letter-spacing: 5%;
-    background-color: #F7F7FF;
+    background-color: #495867;
     padding: 1%;
     position: fixed;
     width: 100%;
@@ -40,7 +40,7 @@ body{
     padding: 10% 5%;
     text-transform: uppercase;
     font-family: Calistoga, sans-serif;
-    color: #495867;
+    color: #F7F7FF;
 }
 
 .nav-area a:hover{color: #FE5F55}
