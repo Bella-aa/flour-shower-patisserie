@@ -176,7 +176,7 @@ body{
 .form-area{
     margin: 2%;
     border: 2px solid black;
-    background-color: blue;
+    background-color: #BDD5EA;
     text-align: center;
 }
 
@@ -187,7 +187,7 @@ body{
     padding: 0.5%;
     margin-top: 2%;
     margin-left: 5%;
-    background-color: aquamarine;
+    background-color: #F7F7FF;
 
 }
 
@@ -227,7 +227,7 @@ body{
 
 footer{
     height: 200px;
-    background-color: beige;
+    background-color: #495867;
 }
 
 .social-links{
@@ -242,7 +242,7 @@ footer{
     font-size: 200%;
     margin: 1%;
     padding: 4%;
-    color: greenR;
+    color: #F7F7FF;
 }
 
 
