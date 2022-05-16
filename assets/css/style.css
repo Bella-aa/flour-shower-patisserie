@@ -68,13 +68,16 @@ body{
 
 #h1{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .about-heading{
     font-family: Calistoga, sans-serif;
     font-size: 250%;
     text-decoration: underline;
-    width: 100%;
+    width: auto;
     
 }
 
@@ -83,6 +86,7 @@ body{
     margin-top: 20px;
     margin-left: 2px;
     padding: 10px;
+    align-items: center;
 
 }
 
@@ -90,26 +94,25 @@ body{
 
 .about-flex {
     display: flex;
-    height: 100%;
-    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: min-content;
+    max-height: 70vh;
 }
 
 .about-text{
     font-family: Montserrat, Arial;
-    font-size: 100%;
-    text-align: justify;
-    padding: 5px;
-    margin-top: 2px;
-    float: left;
-    width: 50%;
-    line-height: 45px;
+    font-size: 1rem;
+    width: 40%;
+    line-height: 30px;
+    max-height: 500px;
+    height: auto
 }
 
 .about-image{
-    height: 500px;
-    width: 500px;
-    padding-left: 100px;
-    float: right;
+    width: 40%;
+    max-height: 500px;
+    height: auto;
 }
 
 /*Recipe and method area*/
@@ -227,7 +230,7 @@ body{
 
 footer{
     height: 200px;
-    background-color: #495867;
+    background-color: beige;
 }
 
 .social-links{
@@ -242,7 +245,7 @@ footer{
     font-size: 200%;
     margin: 1%;
     padding: 4%;
-    color: #F7F7FF;
+    color: greenR;
 }
 
 
