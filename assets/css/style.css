@@ -42,13 +42,14 @@ body{
     color: #F7F7FF;
 }
 
-.nav-area a:hover{color: #FE5F55}
+.nav-area a:hover{
+    color: #FE5F55}
 
 /* main image and website name */
 
 .main-image{
     background: url("../images/main-image-5850470.jpg") no-repeat center center;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     padding-top: 15%;
     background-size: 100%;
@@ -120,7 +121,7 @@ body{
 }
 
 .heading-1{
-    font-size: 250%;
+    font-size: 2.5rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
 }
@@ -155,7 +156,7 @@ body{
 /* Sign Up Form */
 
 .signup-heading{
-    margin: 0.13rem;
+    margin-left: 1.6rem;
     
 }
 
@@ -172,12 +173,11 @@ body{
 }
 
 .signup-form{
-    background-color: #F7F7FF;
     padding: 2rem;
     width: 50%;
     margin: auto;
     border: 3rem;
-    color: #FE5F55;
+    color: #495867;
 }
 
 .form-contents{
@@ -200,7 +200,7 @@ body{
 }
 
 .input-text{
-    border: 0.1rem solid #FE5F55;
+    border: 0.1rem solid #495867;
     padding: 0.5rem;
     flex: 1.5;
     width: 30%;
@@ -214,7 +214,7 @@ body{
 .submit{
     color: #F7F7FF;
     background-color: #495867;
-    border: 0.1rem solid #FE5F55;
+    border: 0.1rem solid #495867;
     width: 15%;
     padding: 0.5rem;
     font-size: 1.5rem;
@@ -247,26 +247,26 @@ body{
 /* footer*/
 
 footer{
-    background-color: beige;
+    background-color: #495867;
 }
 
 .social-links{
     text-align: center;
     margin-top: 2.5rem;
-
 }
 
-.social-links > li{
-    display: inline;
+.footer-icon{
+    display: inline-flex;
+    list-style: none;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-right: 15rem;
 }
 
-.social-links i{
-    font-size: 200%;
-    margin: 1%;
-    padding: 4%;
-    color: greenR;
+.footer-icon a{
+    color: #F7F7FF;
+    height: 2rem;
 }
-
 
 
 
