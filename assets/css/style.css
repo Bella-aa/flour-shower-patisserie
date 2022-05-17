@@ -171,65 +171,89 @@ body{
     font-family: Montserrat, Arial;
 }
 
-.form-area{
-    margin: 0.02rem;
-    border: 0.13rem solid black;
-    background-color: #BDD5EA;
-    text-align: center;
-}
-
-.form-input{
-    border: 1px solid black;
-    border-radius: 2%;
-    width: 30%;
-    padding: 0.5%;
-    margin-top: 2%;
-    margin-left: 5%;
+.signup-form{
     background-color: #F7F7FF;
-
+    padding: 2rem;
+    width: 50%;
+    margin: auto;
+    border: 3rem;
+    color: #FE5F55;
 }
 
-.enter{
-    border: 1px solid black;
-    border-radius: 2%;
-    width: 5%;
-    padding: 0.5%;
-    margin-top: 2%;
+.form-contents{
+    border: 2rem;
+    background-color: #BDD5EA;
+    padding: 1rem;
+}
+
+.input-area{
+    border-radius: 2em;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.input-area label{
+    width: auto;
+    padding-right: 1rem;
+    flex: 0.2;
+}
+
+.input-text{
+    border: 0.1rem solid #FE5F55;
+    padding: 0.5rem;
+    flex: 1.5;
+    width: 30%;
+}
+
+.submit-button{
+    text-align: center;
+    padding: 1rem;
+}
+
+.submit{
+    color: #F7F7FF;
+    background-color: #495867;
+    border: 0.1rem solid #FE5F55;
+    width: 15%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
 }
 
 /* thankyou.html*/
 
 .thank-you{
     margin: 2%;
+    text-align: center;
 }
 
 .thanks-heading{
     font-family: Calistoga, sans-serif;
-    font-size: 250%;
+    font-size: 2.5rem;
     padding-bottom: 2%;
 }
 
 .thanks-paragraph{
     font-family: Montserrat, Arial;
-    font-size: 100%;
+    font-size: 1rem;
     padding-bottom: 1%;
 
 }
 
 .link{
-    margin-left: 2%;
-    
+    text-align: center;
 }
 
 /* footer*/
 
 footer{
-    height: 12rem;
     background-color: beige;
 }
 
 .social-links{
     text-align: center;
+    margin-top: 2.5rem;
+
 }
 
 .social-links > li{
