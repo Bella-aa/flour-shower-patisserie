@@ -8,17 +8,16 @@
 
 body{
     font-family: Calistoga;
-    font-size: 100%;
+    font-size: 1rem;
     color: #495867;
 }
 
 /* style navigation links */
 
 .nav-area{
-    font-size: 100%;
-    letter-spacing: 5%;
+    letter-spacing: 0.2rem;
     background-color: #495867;
-    padding: 1%;
+    padding: 1rem;
     position: fixed;
     width: 100%;
 }
@@ -58,7 +57,7 @@ body{
 .main-text{
     padding: 10% 10%;
     color: #F7F7FF;
-    font-size: 250%;
+    font-size: 2.5rem;
     font-family: Calistoga, sans-serif;
     text-transform: uppercase;
     width: 20%;
@@ -75,7 +74,7 @@ body{
 
 .about-heading{
     font-family: Calistoga, sans-serif;
-    font-size: 250%;
+    font-size: 2.5rem;
     text-decoration: underline;
     width: auto;
     
@@ -83,9 +82,9 @@ body{
 
 .about-us{
     width: 100%;
-    margin-top: 20px;
-    margin-left: 2px;
-    padding: 10px;
+    margin-top: 1.25rem;
+    margin-left: 0rem;
+    padding: 0.63rem;
     align-items: center;
 
 }
@@ -97,28 +96,25 @@ body{
     justify-content: space-evenly;
     align-items: center;
     max-height: min-content;
-    max-height: 70vh;
 }
 
 .about-text{
     font-family: Montserrat, Arial;
-    font-size: 1rem;
     width: 40%;
-    line-height: 30px;
-    max-height: 500px;
+    line-height: 2rem;
     height: auto
 }
 
 .about-image{
     width: 40%;
-    max-height: 500px;
+    max-height: 31rem;
     height: auto;
 }
 
 /*Recipe and method area*/
 
 .recipe-section{
-     margin-left: 26px;
+     margin-left: 1.6rem;
      padding-top: 2%;
      text-align: start;
 }
@@ -132,12 +128,12 @@ body{
 .text{
     font-family: Montserrat, Arial;
     font-size: 100%;
-    margin: 10px;
-    line-height: 30px;
+    margin: 0.6rem;
+    line-height: 2rem;
 }
 
 .heading-3{
-    font-size: 150%;
+    font-size: 1.5rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
 }
@@ -145,40 +141,39 @@ body{
 /* video area */
 
 .iframe-container{
-    margin-top: 20px;
-    margin-left: 150px;
+    margin-top: 1.3rem;
+    margin-left: 9rem;
 }
 
 .heading-4{
-    font-size: 150%;
+    font-size: 1.5rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
-    padding-bottom: 5px;
+    padding-bottom: 0.3rem;
 }
 
 /* Sign Up Form */
 
 .signup-heading{
-    margin: 2%;
+    margin: 0.13rem;
     
 }
 
 .h2{
-    font-size: 200%;
+    font-size: 2rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
 }
 
 .signup-text{
-    padding: 1px;
+    padding: 0.1rem;
     margin-top: 1%;
-    font-size: 100%;
     font-family: Montserrat, Arial;
 }
 
 .form-area{
-    margin: 2%;
-    border: 2px solid black;
+    margin: 0.02rem;
+    border: 0.13rem solid black;
     background-color: #BDD5EA;
     text-align: center;
 }
@@ -229,7 +224,7 @@ body{
 /* footer*/
 
 footer{
-    height: 200px;
+    height: 12rem;
     background-color: beige;
 }
 
