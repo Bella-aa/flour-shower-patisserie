@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Montserrat&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body{
+body {
     font-family: Calistoga;
     font-size: 1rem;
     color: #495867;
@@ -14,7 +14,7 @@ body{
 
 /* style navigation links */
 
-.nav-area{
+.nav-area {
     letter-spacing: 0.2rem;
     background-color: #495867;
     padding: 1rem;
@@ -22,18 +22,18 @@ body{
     width: 100%;
 }
 
-.nav-area ul{
+.nav-area ul {
     padding: 0%;
     margin: 0%;
     text-align: right;
 }
 
-.nav-area li{
+.nav-area li {
     display: inline;
     list-style-type: none;
 }
 
-.nav-area a{
+.nav-area a {
     text-decoration: none;
     width: 100%;
     padding: 10% 5%;
@@ -42,12 +42,13 @@ body{
     color: #F7F7FF;
 }
 
-.nav-area a:hover{
-    color: #FE5F55}
+.nav-area a:hover {
+    color: #FE5F55
+}
 
 /* main image and website name */
 
-.main-image{
+.main-image {
     background: url("../images/main-image-5850470.jpg") no-repeat center center;
     height: 60vh;
     width: 100%;
@@ -55,7 +56,7 @@ body{
     background-size: 100%;
 }
 
-.main-text{
+.main-text {
     padding: 10% 10%;
     color: #F7F7FF;
     font-size: 2.5rem;
@@ -66,22 +67,22 @@ body{
 
 /* Our history area */
 
-#h1{
+#h1 {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
 }
 
-.about-heading{
+.about-heading {
     font-family: Calistoga, sans-serif;
     font-size: 2.5rem;
     text-decoration: underline;
     width: auto;
-    
+
 }
 
-.about-us{
+.about-us {
     width: 100%;
     margin-top: 1.25rem;
     margin-left: 0rem;
@@ -99,41 +100,42 @@ body{
     max-height: min-content;
 }
 
-.about-text{
+.about-text {
     font-family: Montserrat, Arial;
     width: 40%;
     line-height: 2rem;
     height: auto
 }
 
-.about-image{
+.about-image {
     width: 40%;
     max-height: 31rem;
     height: auto;
+    object-fit: cover;
 }
 
 /*Recipe and method area*/
 
-.recipe-section{
-     margin-left: 1.6rem;
-     padding-top: 2%;
-     text-align: start;
+.recipe-section {
+    margin-left: 1.6rem;
+    padding-top: 2%;
+    text-align: start;
 }
 
-.heading-1{
+.heading-1 {
     font-size: 2.5rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
 }
 
-.text{
+.text {
     font-family: Montserrat, Arial;
     font-size: 100%;
     margin: 0.6rem;
     line-height: 2rem;
 }
 
-.heading-3{
+.heading-3 {
     font-size: 1.5rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
@@ -141,12 +143,19 @@ body{
 
 /* video area */
 
-.iframe-container{
+.iframe-container {
     margin-top: 1.3rem;
-    margin-left: 9rem;
+    text-align: center;
 }
 
-.heading-4{
+.iframe {
+    aspect-ratio: 16 / 9;
+    height: 50%;
+    width: 50%;
+}
+
+
+.heading-4 {
     font-size: 1.5rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
@@ -155,24 +164,24 @@ body{
 
 /* Sign Up Form */
 
-.signup-heading{
+.signup-heading {
     margin-left: 1.6rem;
-    
+
 }
 
-.h2{
+.h2 {
     font-size: 2rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
 }
 
-.signup-text{
+.signup-text {
     padding: 0.1rem;
     margin-top: 1%;
     font-family: Montserrat, Arial;
 }
 
-.signup-form{
+.signup-form {
     padding: 2rem;
     width: 50%;
     margin: auto;
@@ -180,38 +189,38 @@ body{
     color: #495867;
 }
 
-.form-contents{
+.form-contents {
     border: 2rem;
     background-color: #BDD5EA;
     padding: 1rem;
 }
 
-.input-area{
+.input-area {
     border-radius: 2em;
     padding: 1rem;
     align-items: center;
     display: flex;
 }
 
-.input-area label{
+.input-area label {
     width: auto;
     padding-right: 1rem;
     flex: 0.2;
 }
 
-.input-text{
+.input-text {
     border: 0.1rem solid #495867;
     padding: 0.5rem;
     flex: 1.5;
     width: 30%;
 }
 
-.submit-button{
+.submit-button {
     text-align: center;
     padding: 1rem;
 }
 
-.submit{
+.submit {
     color: #F7F7FF;
     background-color: #495867;
     border: 0.1rem solid #495867;
@@ -222,40 +231,40 @@ body{
 
 /* thankyou.html*/
 
-.thank-you{
+.thank-you {
     margin: 2%;
     text-align: center;
 }
 
-.thanks-heading{
+.thanks-heading {
     font-family: Calistoga, sans-serif;
     font-size: 2.5rem;
     padding-bottom: 2%;
 }
 
-.thanks-paragraph{
+.thanks-paragraph {
     font-family: Montserrat, Arial;
     font-size: 1rem;
     padding-bottom: 1%;
 
 }
 
-.link{
+.link {
     text-align: center;
 }
 
 /* footer*/
 
-footer{
+footer {
     background-color: #495867;
 }
 
-.social-links{
+.social-links {
     text-align: center;
     margin-top: 2.5rem;
 }
 
-.footer-icon{
+.footer-icon {
     display: inline-flex;
     list-style: none;
     font-size: 2rem;
@@ -263,15 +272,23 @@ footer{
     padding-right: 15rem;
 }
 
-.footer-icon a{
+.footer-icon a {
     color: #F7F7FF;
     height: 2rem;
 }
 
+/* media queries */
 
+@media screen and (max-width: 700px){
+    .about-flex{flex-direction: column;}
+    .about-image, .about-text{width: 80%;}
+}
 
-
-
-
-
-
+@media screen and (min-width: 700px){
+    .about-flex{flex-wrap: wrap;}
+    .about-image{
+        width: 40%;
+        height: text-align;
+    } 
+    .about-text{width: 40%;}
+}
