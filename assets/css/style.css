@@ -31,12 +31,12 @@ body {
 .nav-area li {
     display: inline;
     list-style-type: none;
+    margin: 30PX;
 }
 
 .nav-area a {
     text-decoration: none;
     width: 100%;
-    padding: 10% 5%;
     text-transform: uppercase;
     font-family: Calistoga, sans-serif;
     color: #F7F7FF;
@@ -85,10 +85,6 @@ body {
 .about-us {
     width: 100%;
     margin-top: 1.25rem;
-    margin-left: 0rem;
-    padding: 0.63rem;
-    align-items: center;
-
 }
 
 /* display:flex*/
@@ -109,8 +105,7 @@ body {
 
 .about-image {
     width: 40%;
-    max-height: 31rem;
-    height: auto;
+    max-height: 30rem;
     object-fit: cover;
 }
 
@@ -257,7 +252,7 @@ body {
 
 footer {
     background-color: #495867;
-    height: 5vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,7 +269,7 @@ footer {
     list-style: none;
     font-size: 2rem;
     text-decoration: none;
-    padding-right: 0 50px;
+    margin: 0 50px;
 }
 
 .footer-icon a {
