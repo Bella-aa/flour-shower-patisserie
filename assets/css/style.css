@@ -168,6 +168,7 @@ body {
     font-size: 2rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
+    margin: 25px;
 }
 
 .signup-text {
@@ -219,7 +220,6 @@ body {
     color: #F7F7FF;
     background-color: #495867;
     border: 0.1rem solid #495867;
-    width: 15%;
     padding: 0.5rem;
     font-size: 1.5rem;
 }
@@ -293,5 +293,14 @@ footer {
         height: 45vh;
     }
     
+    .about-flex {
+        flex-direction: column-reverse;
+    }
+    
+    .about-text {
+        width: unset;
+        padding: 50px;
+        text-align: justify;
+    }
     }
     
