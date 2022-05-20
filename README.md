@@ -84,3 +84,17 @@ There is one page on this website divided into four sections :
 
 5. Footer section
 - This is a section located at the bottom of the page providing links to our social media platforms.
+-----
+
+## Future Implementation 
+
+- A Newsletter sending out past recipes with hints and tips for beginner bakers. 
+
+- A monthly blog about Flour Shower Patisserie. 
+
+- Improved website structure layout
+
+- All social media links will link to a page for Flour Shower Patisserie rather than a signup form.  
+
+- Testimonials from users about the service. 
+
