@@ -86,6 +86,15 @@ There is one page on this website divided into four sections :
 - This is a section located at the bottom of the page providing links to our social media platforms.
 -----
 
+## Skeleton
+
+The design was focused to desktop first but can be used on other devices such as tablets and mobile phones through responsive design.  Wireframes are done using balsamiq:  
+
+![Baking Wireframe 1 copy - Copy](https://user-images.githubusercontent.com/103276740/169567997-f0ea3026-5aeb-4b41-bcdc-9aa01117a005.png)
+
+
+
+
 ## Future Implementation 
 
 - A Newsletter sending out past recipes with hints and tips for beginner bakers. 
@@ -113,6 +122,7 @@ There is one page on this website divided into four sections :
 - Balsamiq to create wireframes.
 - Images from pixels
 - [YouTube](https://www.youtube.com/watch?v=yH55XR2e_VA&list=PLUdjAsQJWEqIt8xaNUDhh2aJ2Rhb_kPhk&index=5) for the tutorial video.
+- [TinyPNG](https://tinypng.com/) - to compress images
 
 -----
 
