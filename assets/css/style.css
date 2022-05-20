@@ -23,8 +23,7 @@ body {
 }
 
 .nav-area ul {
-    padding: 0%;
-    margin: 0%;
+    margin-right: 5%;
     text-align: right;
 }
 
@@ -53,7 +52,7 @@ body {
     height: 60vh;
     width: 100%;
     padding-top: 15%;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .main-text {
@@ -277,7 +276,7 @@ footer {
     height: 2rem;
 }
 
-/* media queries */
+/* media queries for ipad mini*/
 
 @media (max-width: 768px) {
 
@@ -302,5 +301,20 @@ footer {
         padding: 50px;
         text-align: justify;
     }
+
+    .signup-form {
+    width: 80%;
+    margin: unset;
+}
+
+.nav-area li {
+    margin: unset;
+}
+    }
+
+    /* media querie for galaxy 8 */
+
+    @media screen {
+        
     }
     
