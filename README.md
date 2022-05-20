@@ -6,7 +6,7 @@ For my **Portfolio 1 Project** on the **Code Institute Diploma in Software Devel
 
 **Link to my repository is [here]
 
-The design plan was focused on **Desktop** first and then **Responsive**
+The design plan was focused on **Desktop** first and then **Responsive** to smaller devices.
 
 -----
 
@@ -126,4 +126,30 @@ There is one page on this website divided into four sections :
 - [Flexbox tutorial Youtube](https://www.youtube.com/watch?v=k32voqQhODc).
 - [W3schools](https://www.w3schools.com/) 
 - [Pexels.com](https://www.pexels.com/) for images. 
+
+-----
+
+# Surface 
+
+##### Typography 
+
+For the logo the font **Anton** was used.  The logo was created externally using Canva.com.
+
+Throughout the website the font **Calistoga** was used for headings and menue and this font falls back to sans-serif if it fails to load. For the other body elements the font **Montserrat** was used and this font falls back to Arial if the page fails to load.   These fonts were obtained using Google Fonts and differnt sizes were used. Thess fonts were chosen because they have a a professional look and is clean and easy to read.    
+
+
+##### Colors 
+
+The following palette of colors were chosen as they were clean, welcoming and easy to read: 
+
+#/hex 495867 for body text, nav-area background colour, submit button background color and footer background color.
+
+#/hex FE5F55 for nav-area hover.
+
+#/hex F7F7FF for footer icons, overlay-image text and the submit value.
+
+#/hex BDD5EA for form contents background.
+
+-----
+
 

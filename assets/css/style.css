@@ -288,9 +288,6 @@ footer {
         width: 100%;
     }
     
-    .bg-hero-section {
-        height: 45vh;
-    }
     
     .about-flex {
         flex-direction: column-reverse;
