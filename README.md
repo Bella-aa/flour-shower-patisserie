@@ -131,14 +131,14 @@ There is one page on this website divided into four sections :
 
 # Surface 
 
-##### Typography 
+### Typography 
 
 For the logo the font **Anton** was used.  The logo was created externally using Canva.com.
 
 Throughout the website the font **Calistoga** was used for headings and menue and this font falls back to sans-serif if it fails to load. For the other body elements the font **Montserrat** was used and this font falls back to Arial if the page fails to load.   These fonts were obtained using Google Fonts and differnt sizes were used. Thess fonts were chosen because they have a a professional look and is clean and easy to read.    
 
 
-##### Colors 
+### Colors 
 
 The following palette of colors were chosen as they were clean, welcoming and easy to read: 
 
@@ -151,5 +151,53 @@ The following palette of colors were chosen as they were clean, welcoming and ea
 #/hex BDD5EA for form contents background.
 
 -----
+
+# Testing
+
+
+### Local Testing
+
+Manual testing of all buttons, links, functionality and grammer on the website has been carried out.  The following was verified by manual testing: 
+
+- Navigation on the website page: 
+  - that clicking the home link on the navbar will bring the user back to the home page/index section.  
+  - that all navigation links work smoothly and link to the correct section. 
+  - that all navigation links have the correct color when using the :hover psuedo selector.  
+  - that all navigation links are responsive for large, medium and small screens.
+
+- Footer section: 
+  - that the facebook icon links to facebook. 
+  - that the instagram icon links to instagram 
+  - that the Twitter icon links to Twitter. 
+  - that the links remain responsive and in a row.
+
+- Home/Index section:
+  - that the hero image changes size for responsiveness. 
+  - that the overlay text remains in a good viewable position over the hero image on all devices. 
+  - that all text and images are central and not hidden and are fully responsive.  
+
+
+- Recipe section:
+  - that the text and image in the Our history section is aligned side by side. 
+  - that the ingredients are listed fully, are correct, aligned and are fully responsive. 
+  - that the Instructions are listed correctly, aligned and fully responsive. 
+  - that the video is aligned to the center and fully responsive. 
+  - that the video does not play automatically when the page opens.  It is control only by the user. 
+
+- Sign-up section:
+  - that all elements on the form are working correctly. 
+  - that the required information is needed to submit the form and a warning message appears. 
+  - that a correct email address needs to be submitted and a warning appears if it is not. 
+  - that when the submit button is clicked it will bring the user to the thank-you page. 
+  - that the page is fully responsive. 
+
+- Thank-you page: 
+  - that the text is aligned to the center. 
+  - that the 'Home' link brings the user back to the home page. 
+  
+- Entire website: 
+  - that the text is clearly presented with the correct font-size and font-style.  
+  - The the text does not have any spelling mistakes. 
+  - That the website is fully responsive. 
 
 
