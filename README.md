@@ -84,7 +84,6 @@ There is one page on this website divided into four sections :
 
 5. Footer section
 - This is a section located at the bottom of the page providing links to our social media platforms.
------
 
 ## Skeleton
 
@@ -92,8 +91,7 @@ The design was focused to desktop first but can be used on other devices such as
 
 ![Baking Wireframe 1 copy - Copy](https://user-images.githubusercontent.com/103276740/169567997-f0ea3026-5aeb-4b41-bcdc-9aa01117a005.png)
 
-
-
+-----
 
 ## Future Implementation 
 
@@ -150,7 +148,9 @@ Throughout the website the font **Calistoga** was used for headings and menue an
 
 ### Colors 
 
-The following palette of colors were chosen as they were clean, welcoming and easy to read: 
+The following palette of colors were chosen as they were clean, welcoming and easy to read:
+
+![Color pallet 173255](https://user-images.githubusercontent.com/103276740/169572629-f92debfa-d5db-4ac4-a996-3f00f24af6e2.png)
 
 #/hex 495867 for body text, nav-area background colour, submit button background color and footer background color.
 
