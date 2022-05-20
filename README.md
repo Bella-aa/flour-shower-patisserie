@@ -98,3 +98,19 @@ There is one page on this website divided into four sections :
 
 - Testimonials from users about the service. 
 
+-----
+
+## Technologies Used 
+
+
+- HTML5 to provide content and structure to the website.
+- CSS3 provides styles for the website. 
+- [Coolors.co](https://coolors.co/) to select colors for the website that   would work well together.  
+- [Font Awesome](https://fontawesome.com) for the social media icons on the footer. 
+- [Google Fonts](https://fonts.google.com/) for font.
+- Gitpod to create and edit the website. 
+- GibHub for hosting files and deployment of the website.
+- Balsamiq to create wireframes.
+- Images from pixels
+- [YouTube](https://www.youtube.com/watch?v=yH55XR2e_VA&list=PLUdjAsQJWEqIt8xaNUDhh2aJ2Rhb_kPhk&index=5) for the tutorial video.
+
