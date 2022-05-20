@@ -114,3 +114,16 @@ There is one page on this website divided into four sections :
 - Images from pixels
 - [YouTube](https://www.youtube.com/watch?v=yH55XR2e_VA&list=PLUdjAsQJWEqIt8xaNUDhh2aJ2Rhb_kPhk&index=5) for the tutorial video.
 
+-----
+
+## Resources 
+
+
+- Code Institute course materials, tutor and mentor support.
+- Code Institute Slack Community.
+- Love Running walk-through on Code Insitute.
+- Form Structure was used from the Love Running challenge. 
+- [Flexbox tutorial Youtube](https://www.youtube.com/watch?v=k32voqQhODc).
+- [W3schools](https://www.w3schools.com/) 
+- [Pexels.com](https://www.pexels.com/) for images. 
+
