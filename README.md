@@ -209,5 +209,27 @@ Manual testing of all buttons, links, functionality and grammer on the website h
   - that the text is clearly presented with the correct font-size and font-style.  
   - The the text does not have any spelling mistakes. 
   - That the website is fully responsive. 
+  -----
+
+  ### User Testing
+
+  The websit was sent to a group of 30 people and was tested on different devices. The users found the website easy to navigate and functional.Some of the device used during the testing process are:
+
+  - Samsung Galaxy S8+
+  - iPad mini
+  - iPhone XR
+  - iPhone 12 pro
+  - Pixel 5
+  -----
+
+  ### Browser testing
+
+  The Website has been tested on Google Chrome, Microsoft Edge, and firefox. On all the browsers the website was tested, functionality and responsiveness is good. 
+
+  ### Validators 
+
+The website was tested using Jigsaw W3C validation.  This showed up minor opening and closing tag errors which were fixed immediately.  An error came up in relation to the embeded iframe code from YouTube.  This code was adjusted and the error removed.  Once issues were dealt with the validator showed no errors in either html or css. 
+
+
 
 

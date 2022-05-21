@@ -327,6 +327,10 @@ footer {
 /* media querie for small devices with max width 600px and below */
 
 @media screen and (max-width:600px) {
+    .main-text {
+        font-size: 1.5rem;
+    }
+
     .about-image {
         width: 95%;
     }
@@ -352,7 +356,7 @@ footer {
     }
 
     .h2 {
-        margin: 25px auto;
+        margin-left: 5px;
         width: fit-content;
     }
 
@@ -363,5 +367,9 @@ footer {
 @media screen and (max-width:400px) {
     .main-text h1 {
         font-size: larger;
+    }
+
+    .nav-area li {
+        margin-left: 1%;
     }
 }
