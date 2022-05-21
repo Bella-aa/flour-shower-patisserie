@@ -230,6 +230,12 @@ ul li, ol li {
     border: 0.1rem solid #495867;
     padding: 0.5rem;
     font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #FE5F55;
+    color: #F7F7FF;
 }
 
 /* thankyou.html*/
