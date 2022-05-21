@@ -48,7 +48,7 @@ body {
 /* main image and website name */
 
 .main-image {
-    background: url("../images/main-image-5850470.jpg") no-repeat center center;
+    background: url("./img/one.jpg") no-repeat center center;
     height: 60vh;
     width: 100%;
     padding-top: 15%;
@@ -281,19 +281,19 @@ footer {
 @media (max-width: 768px) {
 
     .about-image {
-      width: 100%;
+        width: 100%;
     }
-    
+
     .iframe {
         width: 100%;
     }
-    
-    
+
+
     .about-flex {
         flex-direction: column-reverse;
     }
-    
-    
+
+
     .about-text {
         width: unset;
         padding: 50px;
@@ -301,18 +301,92 @@ footer {
     }
 
     .signup-form {
-    width: 80%;
-    margin: unset;
-}
-
-.nav-area li {
-    margin: unset;
-}
+        width: 80%;
+        margin: unset;
     }
 
-    /* media querie for galaxy 8 */
-
-    @media screen {
-        
+    .nav-area li {
+        margin: unset;
     }
-    
+}
+
+/* media querie for galaxy 8 */
+
+@media screen {}
+
+
+/* Changes that UTTAM made  */
+
+* {
+    scroll-behavior: smooth;
+}
+
+.main-image {
+    background:linear-gradient(to bottom, #00000083,#0001), url("./img/one.jpg") no-repeat center center/cover;
+    height: 60vh;
+    width: 100%;
+    padding-top: 15%;
+}
+
+.text {
+    margin: 0.6rem 0;
+}
+
+.recipe-section {
+    margin-left: 0;
+    padding: 20px;
+}
+
+ul li, ol li {
+    margin-left: 1.2rem;
+}
+
+.h2 {
+    margin: 25px 0;
+}
+
+.about-text {
+    padding: 50px 20px;
+}
+
+/* for small devices */
+@media screen and (max-width:600px) {
+    .about-image {
+        width: 95%;
+    }
+
+    .footer-icon {
+        font-size: 1rem;
+    }
+
+    .signup-form {
+        width: 100%;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    .signup-heading {
+        margin-left: 0;
+
+    }
+
+    .signup-heading p {
+        margin-left: 1.6rem;
+
+    }
+
+    .h2 {
+        margin: 25px auto;
+        width: fit-content;
+    }
+
+}
+
+/* for extra small devices */
+@media screen and (max-width:400px) {
+    .main-text h1 {
+        font-size: larger;
+    }
+}
+
+/* ********** instant of adding Margin add padding ********* */
