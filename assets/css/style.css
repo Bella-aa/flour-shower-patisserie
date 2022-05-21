@@ -6,6 +6,10 @@
     border: none;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Calistoga;
     font-size: 1rem;
@@ -48,11 +52,10 @@ body {
 /* main image and website name */
 
 .main-image {
-    background: url("./img/one.jpg") no-repeat center center;
+    background:linear-gradient(to bottom, #00000083,#0001), url("../images/main-image-5850470.jpg") no-repeat center center/cover;
     height: 60vh;
     width: 100%;
     padding-top: 15%;
-    background-size: cover;
 }
 
 .main-text {
@@ -97,6 +100,7 @@ body {
 
 .about-text {
     font-family: Montserrat, Arial;
+    padding: 50px 20px;
     width: 40%;
     line-height: 2rem;
     height: auto
@@ -111,10 +115,11 @@ body {
 /*Recipe and method area*/
 
 .recipe-section {
-    margin-left: 1.6rem;
-    padding-top: 2%;
+    margin-left: 0;
+    padding: 20px;
     text-align: start;
 }
+
 
 .heading-1 {
     font-size: 2.5rem;
@@ -125,8 +130,12 @@ body {
 .text {
     font-family: Montserrat, Arial;
     font-size: 100%;
-    margin: 0.6rem;
+    margin: 0.6rem 0;
     line-height: 2rem;
+}
+
+ul li, ol li {
+    margin-left: 1.2rem;
 }
 
 .heading-3 {
@@ -167,7 +176,7 @@ body {
     font-size: 2rem;
     font-family: Calistoga, sans-serif;
     text-decoration: underline;
-    margin: 25px;
+    margin: 25px 0;
 }
 
 .signup-text {
@@ -276,7 +285,7 @@ footer {
     height: 2rem;
 }
 
-/* media queries for ipad mini*/
+/* media queries for tablets mini*/
 
 @media (max-width: 768px) {
 
@@ -308,45 +317,6 @@ footer {
     .nav-area li {
         margin: unset;
     }
-}
-
-/* media querie for galaxy 8 */
-
-@media screen {}
-
-
-/* Changes that UTTAM made  */
-
-* {
-    scroll-behavior: smooth;
-}
-
-.main-image {
-    background:linear-gradient(to bottom, #00000083,#0001), url("./img/one.jpg") no-repeat center center/cover;
-    height: 60vh;
-    width: 100%;
-    padding-top: 15%;
-}
-
-.text {
-    margin: 0.6rem 0;
-}
-
-.recipe-section {
-    margin-left: 0;
-    padding: 20px;
-}
-
-ul li, ol li {
-    margin-left: 1.2rem;
-}
-
-.h2 {
-    margin: 25px 0;
-}
-
-.about-text {
-    padding: 50px 20px;
 }
 
 /* for small devices */
