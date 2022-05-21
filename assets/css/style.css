@@ -291,7 +291,7 @@ footer {
     height: 2rem;
 }
 
-/* media queries for tablets mini*/
+/* media queries for devices with max width of 768px and below */
 
 @media (max-width: 768px) {
 
@@ -311,7 +311,6 @@ footer {
 
     .about-text {
         width: unset;
-        padding: 50px;
         text-align: justify;
     }
 
@@ -321,11 +320,12 @@ footer {
     }
 
     .nav-area li {
-        margin: unset;
+        margin-left: 5%;
     }
 }
 
-/* for small devices */
+/* media querie for small devices with max width 600px and below */
+
 @media screen and (max-width:600px) {
     .about-image {
         width: 95%;
@@ -358,11 +358,10 @@ footer {
 
 }
 
-/* for extra small devices */
+/* for extra small devices with max with 400px and below*/
+
 @media screen and (max-width:400px) {
     .main-text h1 {
         font-size: larger;
     }
 }
-
-/* ********** instant of adding Margin add padding ********* */
