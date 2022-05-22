@@ -2,9 +2,7 @@
 
 For my **Portfolio 1 Project** on the **Code Institute Diploma in Software Development (E-Commerce Applications)** course I have created a website called FLOUR SHOWER PATISSERIE that provides easy beginner baking recipies to people of all ages.
 
-**Link to deployed website is [here]
-
-**Link to my repository is [here]
+**Link to deployed website is [here](https://github.com/Bella-aa/flour-shower-patisserie)
 
 The design plan was focused on **Desktop** first and then **Responsive** to smaller devices.
 

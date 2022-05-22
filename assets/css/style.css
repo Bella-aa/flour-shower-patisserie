@@ -89,8 +89,6 @@ body {
     margin-top: 1.25rem;
 }
 
-/* display:flex*/
-
 .about-flex {
     display: flex;
     justify-content: space-evenly;
