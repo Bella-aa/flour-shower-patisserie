@@ -216,6 +216,7 @@ Manual testing of all buttons, links, functionality and grammer on the website h
   The websit was sent to a group of 30 people and was tested on different devices. The users found the website easy to navigate and functional.Some of the device used during the testing process are:
 
   - Samsung Galaxy S8+
+  - S20 Ultras
   - iPad mini
   - iPhone XR
   - iPhone 12 pro
@@ -282,8 +283,64 @@ The main issue I fixed was the horizontal scrolling of the website on different 
 
 ### Issues Unresolved
 
-I was not able able to fix the chrome extensions that affected the lighthouse perfomance of the website, hence why the website has poor performance. 
+I was not able able to fix the chrome extensions that affected the lighthouse perfomance of the website, hence why the website has poor performance.
 
+-----
+
+## Version Control
+
+
+### Git and GitHub 
+
+Local repository and IDE used: GitPod
+Remote repository used: GitHub
+
+Steps followed: 
+- I created a new public repository on GitHub using the Code Institute template.
+- I then created a workspace and started coding on GitPod. 
+- Pages were created along with assets folders and css style file. 
+- As I worked I previewed changes using ports to open the browser.
+- To save my work safely I continued to use the terminal consistently by using: 
+    - **git add .** to add work to git
+    - **git commit -m""** to commit the work 
+    - **git push** to update work to GitHub 
+
+ ### Deployment 
+
+  #### Deployment: 
+        
+    To deploy the site to Github pages the following steps should be followed: 
+
+    - From your list of repositories select the repository you want to deploy.
+    - Click on settings. 
+    - Scroll down to GitHub pages and open Github pages. 
+    - Select main branch and click save.
+    - The page should automatically refresh and the deployed.
+
+   #### Fork: 
+        
+    A copy can be made of a repository by forking the repository.  The copy can then be viewed and changed without affecting the original repository. 
+    
+      - From your list of repositories select the repository you want to fork.
+      - On the top of the page to the right had side you will see a fork image.  Click on the button to create a copy. 
+    
+#### Clone: 
+        
+    Cloning this project from GitHub can be done by following these steps: 
+    
+      - From your list of repositories select the repository you want to deploy.
+      - Click on the code tabe. 
+      - Click on the clipboard icon to copy the URL.  
+      - Open Git Bash in your IDE. 
+      - Change the current working directory to the location you want to place the clone. 
+      - Type git clone and paste the copied URL.  
+      - Press enter for the clone to be created. .
+
+## Acknowledegments
+
+The website could not be completed without the help and support from my mentor Rohit Sharma and  the Slack Community 
+
+Belinda RN Marara 2022
 
 
 
