@@ -231,16 +231,59 @@ Manual testing of all buttons, links, functionality and grammer on the website h
   The website was tested using Jigsaw W3C validation.  This showed  minor opening and closing tag errors which were fixed immediately.  An error came up in relation to the embeded iframe code from YouTube.  This code was adjusted and the error removed. Also an error for label and id's for the input elements showed up and they were fixed immediately.  Once the errors were fixed validator didn't display any errors in  html nor css.
 
 > <summary>Validator Error</summary
+ <br>
 
  ![HTML validator erros2022-05-21 223610](https://user-images.githubusercontent.com/103276740/169687775-97f3a2c4-725b-417c-af6d-382f8ccbc05d.png)
 
- <summary>Validator Errors clear</summary
+ <summary>Validator Errors clear</summary>
+ <br>
 
  ![HTML validator no errors 2022-05-22 002741](https://user-images.githubusercontent.com/103276740/169688071-871f8309-d372-4f1a-b9a5-3df8bfe1027e.png)
 
-<summary>CSS validator</summary
+<summary>CSS validator</summary>
+<br>
 
 ![CSS validation 2022-05-22 005050](https://user-images.githubusercontent.com/103276740/169688135-7b89531b-254d-40ff-be8b-b514a5428fa6.png)
+
+
+### Responsiveness 
+
+To check responsiveness I used Google Chrome Dev Tools.  Desktop, Mobile and tablet sizes were tested.  The website responded well.   
+<br>
+
+###  Result: Chrome Lighthouse 
+
+<summary>Desktop Performance</summary>
+<br>
+
+![Desktop lighthouse2022-05-22 102552](https://user-images.githubusercontent.com/103276740/169688922-4e26e51b-17fb-4ec8-ae67-830ae7ad7907.png)
+
+<summary>Mobile Performance</summary>
+<br>
+
+![Mobile lighthouse perfomance 2022-05-22 103151](https://user-images.githubusercontent.com/103276740/169689042-d8a928d8-3450-4aa4-8539-b78bb88e9da3.png)
+
+
+### Color Contrast Testing 
+
+I used [a11y](https://https://color.a11y.com/) to test the color contrast on the website which showed no contrast issues. 
+
+<summary>Color Contrast Results Preview</summary> 
+<br>
+
+![Color contrast test 2022-05-22 104349](https://user-images.githubusercontent.com/103276740/169689425-9ca269dd-f1c7-418a-9c58-cc8f1efbcc17.png)
+
+-----
+
+### Issues/Bugs Fixed 
+
+The main issue I fixed was the horizontal scrolling of the website on different media screen devices. I used media queries to resolve this issue and it was gone.There were also white extra spaces between the elements  within the webpage on smaller devices for example on the S20 Ultra and Iphone12 pro. These extra spaces were caused by caused by padding so I used media queries to adjust the padding values on different small devices.The input fields were not symetrically aligned on smaller devices so I used media queries to resolve this by adjusting the font size of the label elments.
+
+
+### Issues Unresolved
+
+I was not able able to fix the chrome extensions that affected the lighthouse perfomance of the website, hence why the website has poor performance. 
+
 
 
 
