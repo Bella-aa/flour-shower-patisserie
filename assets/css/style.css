@@ -299,6 +299,11 @@ footer {
         width: 100%;
     }
 
+    .about-text {
+        padding: 0px 15px;
+        ;
+    }
+
     .iframe {
         width: 100%;
         border: 0px;
@@ -336,6 +341,11 @@ footer {
         width: 95%;
     }
 
+    .about-text {
+        padding: 0px 15px;
+        ;
+    }
+
     .footer-icon {
         font-size: 1rem;
     }
@@ -361,6 +371,10 @@ footer {
         width: fit-content;
     }
 
+    .input-area label {
+        font-size: xx-small;
+    }
+
 }
 
 /* for extra small devices with max with 400px and below*/
@@ -370,7 +384,20 @@ footer {
         font-size: larger;
     }
 
+    .about-text {
+        padding: 0px 15px;
+        ;
+    }
+
     .nav-area li {
         margin-left: 1%;
+    }
+
+    .h2 {
+        margin: 5px 0;
+    }
+
+    .input-area label {
+        font-size: xx-small;
     }
 }
