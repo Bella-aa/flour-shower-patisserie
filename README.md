@@ -228,7 +228,7 @@ Manual testing of all buttons, links, functionality and grammer on the website h
 
   ### Validators 
 
-The website was tested using Jigsaw W3C validation.  This showed up minor opening and closing tag errors which were fixed immediately.  An error came up in relation to the embeded iframe code from YouTube.  This code was adjusted and the error removed.  Once issues were dealt with the validator showed no errors in either html or css. 
+  The website was tested using Jigsaw W3C validation.  This showed  minor opening and closing tag errors which were fixed immediately.  An error came up in relation to the embeded iframe code from YouTube.  This code was adjusted and the error removed. Also an error for label and id's for the input elements showed up and they were fixed immediately.  Once the errors were fixed validator didn't display any errors in  html nor css. 
 
 
 
